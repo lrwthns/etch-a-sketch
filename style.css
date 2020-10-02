@@ -1,0 +1,46 @@
+#allButtons {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: max-content;
+}
+
+#reset {
+    font-size: 20px;
+    padding: 6px 10px 6px 10px;
+    color: white;
+    background-color: rgb(91, 82, 95);
+    border: none;
+}
+
+#numSelection {
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(80, 24, 80);
+}
+
+#mainContainer {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(var(--columnRows), 1fr);
+    grid-template-rows: repeat(var(--columnRows), 1fr);
+    width: 80vh;
+    height: 80vh;
+}
+
+.gridCell {
+    border: solid rgb(209, 209, 209) 1px;
+    background: white;
+}
+
+.gridCellHover {
+    float: left;  
+    border: solid rgb(51, 16, 71) 1px;
+    background: rgb(78, 18, 90);
+}
+
+body {
+    background: rgb(64, 55, 87);
+}
